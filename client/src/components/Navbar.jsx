@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <div className=" bricolage-font">
       <div className="bg-transparent p-4 z-10 w-full fixed backdrop-filter backdrop-blur-lg bg-opacity-20 flex justify-between items-center ">
-        <a href="/" className=" text-white hover:cursor-pointer">
+        <a href="/" className=" text-white text-xl broge-font hover:cursor-pointer">
           OnChain
         </a>
         <div className="lg:hidden">

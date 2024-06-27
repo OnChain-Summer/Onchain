@@ -6,3 +6,22 @@
 .bricolage-font {
     font-family: "Bricolage Grotesque";
   }
+
+  @font-face {
+    font-family: 'BroseFont';
+    src: url('../src/fonts/Brose.ttf') format('truetype'),
+   
+  }
+.broge-font {
+    font-family: 'BroseFont';
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .border-container {
+    border-top-right-radius: 2px solid rgb(255, 255, 255); /* Border on top */
+    border-right: 0; /* No border on right */
+    border-bottom: 2px solid rgb(255, 255, 255); /* Border on bottom */
+    border-left: 0; /* No border on left */
+  }
+  
