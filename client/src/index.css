@@ -17,11 +17,3 @@
     font-weight: normal;
     font-style: normal;
   }
-
-  .border-container {
-    border-top-right-radius: 2px solid rgb(255, 255, 255); /* Border on top */
-    border-right: 0; /* No border on right */
-    border-bottom: 2px solid rgb(255, 255, 255); /* Border on bottom */
-    border-left: 0; /* No border on left */
-  }
-  
