@@ -106,7 +106,7 @@ const Navbar = () => {
               to="/mint"
               className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:border-b-2 hover:border-white hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black"
             >
-              Mint NFT
+              Mint NFTs
             </Link>
           </div>
         </div>
