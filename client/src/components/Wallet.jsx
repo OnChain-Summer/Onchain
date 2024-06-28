@@ -67,7 +67,7 @@ const CustomButton = () => {
                     if (!connected) {
                       return (
                         <motion.button
-                          className="text-white flex items-center broge-font text-xs bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:from-yellow-500 hover:via-red-500 hover:to-pink-500 hover:shadow-xl p-3 rounded font-medium border-b-2 border-white"
+                          className="text-white flex items-center broge-font text-[8px] md:text-xs bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:from-yellow-500 hover:via-red-500 hover:to-pink-500 hover:shadow-xl p-2 md:p-3 rounded font-medium border-b-2 border-white"
                           onClick={openConnectModal}
                           type="button"
                           whileTap={{ scale: 0.9 }}
@@ -90,7 +90,7 @@ const CustomButton = () => {
                     if (chain.unsupported) {
                       return (
                         <motion.button
-                          className=" text-white broge-font bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:from-yellow-500 hover:via-red-500 hover:to-pink-500 hover:shadow-xl p-3 rounded text-xs font-medium border-b-2 border-white"
+                          className=" text-white broge-font bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:from-yellow-500 hover:via-red-500 hover:to-pink-500 hover:shadow-xl p-3 rounded text-[8px] md:text-xs font-medium border-b-2 border-white"
                           onClick={openChainModal}
                           type="button"
                           whileTap={{ scale: 0.9 }}
@@ -105,7 +105,7 @@ const CustomButton = () => {
                     return (
                       <div style={{ display: "flex", gap: 12 }}>
                         <motion.button
-                          className=" text-white broge-font text-xs bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:from-yellow-500 hover:via-red-500 hover:to-pink-500 hover:shadow-xl p-3 rounded font-medium border-b-2 border-white"
+                          className=" text-white broge-font text-[6px] md:text-xs bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:from-yellow-500 hover:via-red-500 hover:to-pink-500 hover:shadow-xl p-3 rounded font-medium border-b-2 border-white"
                           onClick={openChainModal}
                           style={{ display: "flex", alignItems: "center" }}
                           type="button"
@@ -137,7 +137,7 @@ const CustomButton = () => {
                         </motion.button>
 
                         <motion.button
-                          className=" text-white bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:from-yellow-500 hover:via-red-500 hover:to-pink-500 hover:shadow-xl p-3 rounded text-xs font-medium border-b-2 border-white"
+                          className=" text-white bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:from-yellow-500 hover:via-red-500 hover:to-pink-500 hover:shadow-xl p-3 rounded text-[6px] md:text-xs font-medium border-b-2 border-white"
                           onClick={openAccountModal}
                           whileTap={{ scale: 0.9 }}
                           type="button"

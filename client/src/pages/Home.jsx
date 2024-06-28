@@ -17,7 +17,7 @@ const Home = () => {
               <div className="flex justify-center">
                 {/* Set a fixed size for the image using inline styles */}
                 <img
-                  className="bottom-0 pt-10  h-96 md:h-[600px] md:w-[500px] lg:h-[800px] lg:w-[1000px]"
+                  className="bottom-0   h-96 md:h-[600px] md:w-[500px] lg:h-[800px] lg:w-[1000px]"
                   src={Avatar}
                   alt=""
                   // style={{ width: "1000px", height: "800px" }}

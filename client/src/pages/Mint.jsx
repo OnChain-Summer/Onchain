@@ -9,6 +9,7 @@ const Mint = () => {
   const [name, setName] = useState("");
   const [symbol, setSymbol] = useState("");
   const [blockchain, setBlockchain] = useState("");
+  const [community, setCommunity] = useState(""); // New state for community
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -28,14 +29,14 @@ const Mint = () => {
         <GradientBackground>
           <div className="bricolage-font">
             <Navbar />
-            <div className=" mx-6 md:mx-14 lg:mx-32 items-center">
+            <div className=" pt-32 md:pt-20 mx-6 md:mx-14 lg:mx-32 items-center">
               <p className="text-2xl md:text-3xl lg:text-4xl text-center broge-font text-white">
                 Mint Your{" "}
                 <span className="bg-gradient-to-b from-yellow-500 via-red-400 to-red-500 bg-clip-text text-transparent">
                   NFT Collection:
                 </span>{" "}
               </p>
-              <p className=" pt-6 text-xl md:text-2xl text-center text-white">First, You’ll need to deploy an ERC-4337 contract <br /> on the blockchain to create a collection for your NFT.</p>
+              <p className=" pt-6 md:text-2xl text-center text-white">First, You’ll need to deploy an ERC-4337 contract <br className=" hidden md:inline" /> on the blockchain to create a collection for your NFT.</p>
             </div>
 
             <div className="bg-transparent shadow-lg lg:backdrop-brightness-110 my-4 md:my-10  text-white p-6 rounded-lg max-w-3xl mx-2 md:mx-auto">
@@ -73,43 +74,28 @@ const Mint = () => {
                 />
               </div>
 
-              <div>
-                <label className="block text-sm font-medium mb-1">
-                  Blockchain
+              <div className="mb-6">
+                <label className="block text-sm font-medium mb-1" htmlFor="community">
+                  Select Community
                 </label>
-                <div className="flex space-x-4">
-                  <button
-                    className={`flex-1 bg-gray-800 border border-gray-700 rounded-lg p-4 text-center focus:outline-double ${
-                      blockchain === "Ethereum" ? "bg-blue-500" : ""
-                    }`}
-                    onClick={() => setBlockchain("Ethereum")}
-                  >
-                    <div className="text-gray-400">Ethereum</div>
-                    <div className="text-sm  bg-gray-700 p-1 w-auto rounded">
-                      Most popular
-                    </div>
-                    <div className="mt-2 text-xs">
-                      Estimated cost to deploy contract: $2.66
-                    </div>
-                  </button>
-                  <button
-                    className={`flex-1 bg-gray-800 border border-gray-700 rounded-lg p-4 text-center focus:outline-double ${
-                      blockchain === "Base" ? "bg-blue-500" : ""
-                    }`}
-                    onClick={() => setBlockchain("Base")}
-                  >
-                    <div className="text-gray-400">Base</div>
-                    <div className="text-sm bg-gray-700 p-1 w-auto rounded">
-                      Cheaper
-                    </div>
-                    <div className="mt-2 text-xs">
-                      Estimated cost to deploy contract: $0.01
-                    </div>
-                  </button>
-                  <button className="flex-1 bg-gray-800 border border-gray-700 rounded-lg p-4 text-center focus:outline-double">
-                    <div className="text-gray-400">See more options</div>
-                  </button>
-                </div>
+                <select
+                  id="community"
+                  className="bg-gray-800 border border-gray-700 rounded w-full p-2 text-white"
+                  value={community}
+                  onChange={(e) => setCommunity(e.target.value)}
+                >
+                  <option value="" disabled>Select a community</option>
+                  <option value="Community1">OpenSea</option>
+                  <option value="Community2">Rarible</option>
+                  <option value="Community3">Foundation</option>
+                  <option value="Community4">SuperRare</option>
+                  <option value="Community5">Zora</option>
+                  <option value="Community6">Mintable</option>
+                  <option value="Community7">Async Art</option>
+                  <option value="Community8">Known Origin</option>
+                  <option value="Community9">Nifty Gateway</option>
+                  <option value="Community10">BakerySwap</option>
+                </select>
               </div>
 
               <div className="mb-6">
@@ -135,7 +121,7 @@ const Mint = () => {
                   />
                 </div>
               )}
-              <ButtonTemp title="continue" />
+              <ButtonTemp title="continue 🢅" />
             </div>
           </div>
         </GradientBackground>
