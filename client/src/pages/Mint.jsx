@@ -28,7 +28,7 @@ const Mint = () => {
         <GradientBackground>
           <div className="bricolage-font">
             <Navbar />
-            <div className="pt-20 mx-6 md:mx-14 lg:mx-32 items-center">
+            <div className=" mx-6 md:mx-14 lg:mx-32 items-center">
               <p className="text-2xl md:text-3xl lg:text-4xl text-center broge-font text-white">
                 Mint Your{" "}
                 <span className="bg-gradient-to-b from-yellow-500 via-red-400 to-red-500 bg-clip-text text-transparent">
