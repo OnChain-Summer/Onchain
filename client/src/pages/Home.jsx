@@ -13,25 +13,25 @@ const Home = () => {
         <GradientBackground>
           <div className="">
             <Navbar />
-            <div className="mx-6 md:mx-14 lg:mx-32 md:grid md:grid-cols-2 justify-between gap-20 items-center">
+            <div className="mx-6 md:mx-14 lg:mx-32 lg:grid lg:grid-cols-2 justify-between gap-20 items-center">
               <div className="flex justify-center">
                 {/* Set a fixed size for the image using inline styles */}
                 <img
-                  className="bottom-0"
+                  className="bottom-0 pt-10  h-96 md:h-[600px] md:w-[500px] lg:h-[800px] lg:w-[1000px]"
                   src={Avatar}
                   alt=""
-                  style={{ width: "1000px", height: "800px" }}
+                  // style={{ width: "1000px", height: "800px" }}
                 />
               </div>
               <div className="">
-                <p className="broge-font text-5xl text-center text-white">
+                <p className="broge-font text-3xl md:text-4xl lg:text-5xl text-center text-white">
                   Minting{" "}
                   <span className="bg-gradient-to-t from-emerald-500 via-purple-200 to-purple-600 font-medium bg-clip-text text-transparent">
                     Unique{" "}
                   </span>
                   Digital Art
                 </p>
-                <p className="bricolage-font text-white text-2xl text-center pt-6">
+                <p className="bricolage-font text-white md:text-2xl text-center pt-6">
                   Empower creators to mint unique NFT collections effortlessly.
                   Our platform offers seamless minting, showcasing, and trading
                   of digital assets, revolutionizing ownership in the digital
@@ -42,30 +42,6 @@ const Home = () => {
             </div>
           </div>
         </GradientBackground>
-        {/* <div className="">
-          <img className=" w-full h-36 opacity-30" src={NFT} alt="" />
-        </div>
-        <div className="cube-loader flex items-center justify-center h-screen">
-          <div className="cube-top w-16 h-16 bg-blue-500"></div>
-          <div className="cube-wrapper relative w-16 h-16">
-            <span
-              style={{ "--i": 0 }}
-              className="cube-span absolute w-8 h-8 bg-blue-500"
-            ></span>
-            <span
-              style={{ "--i": 1 }}
-              className="cube-span absolute w-8 h-8 bg-blue-500"
-            ></span>
-            <span
-              style={{ "--i": 2 }}
-              className="cube-span absolute w-8 h-8 bg-blue-500"
-            ></span>
-            <span
-              style={{ "--i": 3 }}
-              className="cube-span absolute w-8 h-8 bg-blue-500"
-            ></span>
-          </div>
-        </div> */}
       </div>
     </div>
   );
