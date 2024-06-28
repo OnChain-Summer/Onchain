@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
-// import MintNFT from './pages/MintNFT';
-// import Minted from './pages/Minted';
+import Mint from './pages/Mint';
 
 function App() {
   return (
@@ -9,8 +8,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' Component={Home}></Route>
-          {/* <Route path='/mint' Component={MintNFT}></Route>
-          <Route path='/minted' Component={Minted}></Route> */}
+          <Route path='/mint' Component={Mint}></Route>
         </Routes>
       </Router>
     </div>
