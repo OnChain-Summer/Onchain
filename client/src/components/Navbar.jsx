@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import Wallet from './Wallet'
 
 
 const Navbar = () => {
@@ -109,6 +110,7 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
+        <Wallet />
       </div>
     </div>
   );

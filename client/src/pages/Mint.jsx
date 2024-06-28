@@ -38,7 +38,7 @@ const Mint = () => {
               <p className=" pt-6 text-xl md:text-2xl text-center text-white">First, You’ll need to deploy an ERC-4337 contract <br /> on the blockchain to create a collection for your NFT.</p>
             </div>
 
-            <div className="bg-transparent shadow-lg lg:backdrop-brightness-110 mt-4 md:mt-10 text-white p-6 rounded-lg max-w-3xl mx-2 md:mx-auto">
+            <div className="bg-transparent shadow-lg lg:backdrop-brightness-110 my-4 md:my-10  text-white p-6 rounded-lg max-w-3xl mx-2 md:mx-auto">
               <div className="mb-6">
                 <label
                   className="block text-sm font-medium mb-1"
