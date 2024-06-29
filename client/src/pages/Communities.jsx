@@ -11,12 +11,7 @@ const Communities = () => {
           <div className="">
             <Navbar />
             <div className="mx-6 md:mx-14 lg:mx-32 gap-20 items-center flex-row md:flex justify-center">
-                <div className=" pt-32">
-                <Cube />
-                </div>
-                <div className="">
-                    <p className=" pt-32 text-3xl text-white bricolage-font">sneonionioen sdvndslvn sdkjvjdsnvkjs  sjnkjdsnkjvndskjv dsnvjdsnvn</p>
-                </div>
+               
             </div>
           </div>
         </GradientBackground>
