@@ -32,7 +32,7 @@ const Home = () => {
                   as NFTs!
                 </p>
                 <p className="bricolage-font text-white md:text-2xl text-center pt-3 md:pt-6">
-                  Welcome to MemeMint, the ultimate platform for creating,
+                  Welcome to OnchainMemes, the ultimate platform for creating,
                   owning, and trading meme NFTs. We bring the best of internet
                   humor and digital art together, transforming your favorite
                   memes into unique, collectible NFTs.
