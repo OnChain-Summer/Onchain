@@ -97,7 +97,7 @@ const Home = () => {
             </div>
             <ButtonTemp title="Get Started -->" to="/mint" />
           </div>
-        
+          <p className=" bg-black p-2 text-center text-white">© 2024 OnchainMemes. All rights reserved. </p>
         </GradientBackground>
       </div>
     </div>
