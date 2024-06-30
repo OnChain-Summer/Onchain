@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import GradientBackground from "../components/GradientBG";
-import Cube from "../components/Cube";
+
 
 const Communities = () => {
   return (

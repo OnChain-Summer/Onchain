@@ -29,18 +29,18 @@ const Mint = () => {
         <GradientBackground>
           <div className="bricolage-font">
             <Navbar />
-            <div className=" pt-32 md:pt-20 mx-6 md:mx-14 lg:mx-32 items-center">
+            <div className=" pt-24 md:pt-20 mx-6 md:mx-14 lg:mx-32 items-center">
               <p className="text-2xl md:text-3xl lg:text-4xl text-center broge-font text-white">
                 Mint Your{" "}
                 <span className="bg-gradient-to-b from-yellow-500 via-red-400 to-red-500 bg-clip-text text-transparent">
                   NFT Collection:
                 </span>{" "}
               </p>
-              <p className=" pt-6 md:text-2xl text-center text-white">First, You’ll need to deploy an ERC-4337 contract <br className=" hidden md:inline" /> on the blockchain to create a collection for your NFT.</p>
+              <p className=" pt-3 md:pt-6 md:text-2xl text-center text-white">First, You’ll need to deploy an ERC-4337 contract <br className=" hidden md:inline" /> on the blockchain to create a collection for your NFT.</p>
             </div>
 
-            <div className="bg-transparent shadow-lg lg:backdrop-brightness-110 my-4 md:my-10  text-white p-6 rounded-lg max-w-3xl mx-2 md:mx-auto">
-              <div className="mb-6">
+            <div className="bg-transparent shadow-lg lg:backdrop-brightness-110 my-4 md:my-10  text-white px-6 py-3 md:py-6 rounded-lg max-w-3xl mx-2 md:mx-auto">
+              <div className="mb-3 md:mb-6">
                 <label
                   className="block text-sm font-medium mb-1"
                   htmlFor="contractName"

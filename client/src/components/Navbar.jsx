@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="lg:hidden">
           <button
             onClick={toggleMenu}
-            className="block text-xl font-semibold focus:outline-none mr-4"
+            className="block text-xl text-white font-semibold focus:outline-none mr-4"
           >
             ☰
           </button>
@@ -53,7 +53,6 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            {/* <li><Link to="#about-section" className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>About Me</Link></li> */}
             <li>
               <Link
                 to="/experience"
@@ -89,7 +88,6 @@ const Navbar = () => {
             >
               Home
             </Link>
-            {/* <Link to="#about-section" className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black"> About Me </Link> */}
             <Link
               to="/experience"
               className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:border-b-2 hover:border-white hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black"
