@@ -14,7 +14,7 @@ const Minted = () => {
               <p className=" text-2xl text-center md:text-3xl broge-font">
                 You have <span className=" bg-gradient-to-t from-emerald-500 via-purple-200 to-purple-600 font-medium bg-clip-text text-transparent"> succesfully minted!</span>
               </p>
-              <ButtonTemp title="Go Back 🢅" to="/" />
+              <ButtonTemp title="View Communities 🢅" to="/communities" />
               </div>
             </div>
           </div>

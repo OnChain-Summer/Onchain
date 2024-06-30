@@ -30,10 +30,10 @@ const Mint = () => {
             <Navbar />
             <div className=" pt-24 md:pt-20 mx-6 md:mx-14 lg:mx-32 items-center">
               <p className="text-2xl md:text-3xl lg:text-4xl text-center broge-font text-white">
-                Mint Your{" "}
+                Mint Your
                 <span className="bg-gradient-to-b from-yellow-500 via-red-400 to-red-500 bg-clip-text text-transparent">
                   NFT Collection:
-                </span>{" "} 
+                </span>
               </p>
               <p className=" pt-3 md:pt-6 md:text-2xl text-center text-white">First, You’ll need to deploy an ERC-4337 contract <br className=" hidden md:inline" /> on the blockchain to create a collection for your NFT.</p>
             </div>
