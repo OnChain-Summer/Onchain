@@ -8,8 +8,7 @@ const Mint = () => {
   const [preview, setPreview] = useState(null);
   const [name, setName] = useState("");
   const [symbol, setSymbol] = useState("");
-  const [blockchain, setBlockchain] = useState("");
-  const [community, setCommunity] = useState(""); // New state for community
+  const [community, setCommunity] = useState(""); 
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -34,7 +33,7 @@ const Mint = () => {
                 Mint Your{" "}
                 <span className="bg-gradient-to-b from-yellow-500 via-red-400 to-red-500 bg-clip-text text-transparent">
                   NFT Collection:
-                </span>{" "}
+                </span>{" "} 
               </p>
               <p className=" pt-3 md:pt-6 md:text-2xl text-center text-white">First, You’ll need to deploy an ERC-4337 contract <br className=" hidden md:inline" /> on the blockchain to create a collection for your NFT.</p>
             </div>
@@ -121,7 +120,7 @@ const Mint = () => {
                   />
                 </div>
               )}
-              <ButtonTemp title="continue 🢅" />
+              <ButtonTemp title="continue 🢅" to="/minted"/>
             </div>
           </div>
         </GradientBackground>
