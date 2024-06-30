@@ -22,8 +22,8 @@ const Navbar = () => {
   return (
     <div className=" bricolage-font">
       <div className="bg-transparent p-4 z-10 w-full fixed backdrop-filter backdrop-blur-lg bg-opacity-20 flex justify-between items-center ">
-        <motion.a href="/" className=" text-white text-xl broge-font hover:cursor-pointer" whileTap={{ scale: 0.9 }}>
-          OnChain
+        <motion.a href="/" className=" text-white text-xs md:text-xl broge-font hover:cursor-pointer" whileTap={{ scale: 0.9 }}>
+          OnChain-memes
         </motion.a>
         <div className="lg:hidden">
           <button
@@ -53,22 +53,22 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to="/experience"
                 className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:border-b-2 hover:border-white hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black"
               >
                 About Us
               </Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link
                 to="/works"
                 className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:border-b-2 hover:border-white hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black"
               >
                 NFT Collections
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 to="/mint"
@@ -88,18 +88,18 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <Link
+            {/* <Link
               to="/experience"
               className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:border-b-2 hover:border-white hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black"
             >
               About Us
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               to="/works"
               className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:border-b-2 hover:border-white hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black"
             >
               NFT Collections
-            </Link>
+            </Link> */}
             <Link
               to="/mint"
               className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:border-b-2 hover:border-white hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black"
