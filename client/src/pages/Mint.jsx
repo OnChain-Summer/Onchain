@@ -84,16 +84,15 @@ const Mint = () => {
                   onChange={(e) => setCommunity(e.target.value)}
                 >
                   <option value="" disabled>Select a community</option>
-                  <option value="Community1">OpenSea</option>
-                  <option value="Community2">Rarible</option>
-                  <option value="Community3">Foundation</option>
-                  <option value="Community4">SuperRare</option>
-                  <option value="Community5">Zora</option>
-                  <option value="Community6">Mintable</option>
-                  <option value="Community7">Async Art</option>
-                  <option value="Community8">Known Origin</option>
-                  <option value="Community9">Nifty Gateway</option>
-                  <option value="Community10">BakerySwap</option>
+                  <option value="Community1">CryptoPunks</option>
+                  <option value="Community2">Bored Ape Yacht Club (BAYC)</option>
+                  <option value="Community3">Pixelmon's Kevin</option>
+                  <option value="Community4">Pepe the Frog</option>
+                  <option value="Community5">Success Kid</option>
+                  <option value="Community6">Stonks</option>
+                  <option value="Community7">Grumpy Cat</option>
+                  <option value="Community8">Aoki Curse</option>
+                  <option value="Community9">Vitalik the Bear</option>
                 </select>
               </div>
 

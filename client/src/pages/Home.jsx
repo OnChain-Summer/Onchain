@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import GradientBackground from "../components/GradientBG";
 import Avatar from "../assets/avatar.png";
+import Meme from "../assets/meme.png"
 import ButtonTemp from "../components/Button";
-import Elon from "../assets/elon.png";
 import Meme1 from "../assets/meme1.png";
 import Meme2 from "../assets/meme2.png";
 import Meme3 from '../assets/meme3.png'
@@ -15,13 +15,18 @@ const Home = () => {
         <GradientBackground>
           <div className="">
             <Navbar />
-            <div className="mx-6 md:mx-14 pt-10 lg:mx-32 lg:grid lg:grid-cols-2 justify-between gap-20 items-center">
+            <div className="mx-6 md:mx-14 pt-32 lg:mx-32 lg:grid lg:grid-cols-2 justify-between gap-20 items-center">
               <div className="flex justify-center">
                 <img
+                  className="bottom-0 h-96 rounded shadow-l md:h-[500px] md:w-[500px] lg:h-[600px] lg:w-[1000px]"
+                  src={Meme}
+                  alt="Avatar" onContextMenu={(e) => e.preventDefault()}
+                />
+                {/* <img
                   className="bottom-0 h-72 md:h-[600px] md:w-[500px] lg:h-[800px] lg:w-[1000px]"
                   src={Avatar}
-                  alt="Avatar"
-                />
+                  alt="Avatar" onContextMenu={(e) => e.preventDefault()}
+                /> */}
               </div>
               <div className="">
                 <p className="broge-font text-xl md:text-4xl text-center text-white">
@@ -45,7 +50,7 @@ const Home = () => {
 
         
         <div className=" bg-gradient-to-tr from-black via-gray-900 to-gray-600 items-center pb-10">
-            <p className=" text-xl bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 md:text-4xl broge-font text-center text-white mt-4 md:mt-0 p-4 md:p-10">
+            <p className=" text-xl bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 md:text-4xl broge-font text-center text-white p-4 md:p-10">
               How it Works
             </p>
             <div className=" md:flex items-center pt-10">
@@ -62,7 +67,7 @@ const Home = () => {
                 <img
                   className=" max-w-96 max-h-72 rounded"
                   src={Meme1}
-                  alt=""
+                  alt=""  onContextMenu={(e) => e.preventDefault()}
                 />
               </div>
               <div className="bg-transparent shadow-lg border-2 border-white lg:backdrop-brightness-110 my-4 md:my-10 hover:bg-gradient-to-t hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white px-6 py-3 md:py-6 rounded-lg max-w-96 max-h-72 text-center mx-2 md:mx-auto">
@@ -79,7 +84,7 @@ const Home = () => {
                 <img
                   className="  max-w-96 max-h-72 rounded"
                   src={Meme2}
-                  alt=""
+                  alt="" onContextMenu={(e) => e.preventDefault()}
                 />
               </div>
               <div className="bg-transparent shadow-lg border-2 border-white lg:backdrop-brightness-110 my-4 md:my-10 hover:bg-gradient-to-t hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white px-6 py-3 md:py-6 rounded-lg max-w-96 max-h-72 text-center mx-2 md:mx-auto">
@@ -94,7 +99,7 @@ const Home = () => {
                 <img
                   className=" max-w-96 max-h-72 rounded"
                   src={Meme3}
-                  alt=""
+                  alt="" onContextMenu={(e) => e.preventDefault()}
                 />
               </div>
             </div>

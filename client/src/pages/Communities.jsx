@@ -13,17 +13,17 @@ const Communities = () => {
 
   const renderComponent = () => {
     switch (activeTab) {
-      case "OpenSea":
+      case "CryptoPunks":
         return <OpenSea />;
-      case "Rarible":
+      case "Bored Ape Yacht Club (BAYC)":
         return <Rarible />;
-      case "SuperRare":
+      case "Pepe the Frog":
         return <SuperRare />;
-      case "Zora":
+      case "Success Kid":
         return <Zora />;
-      case "Mintable":
+      case "Vitalik the Bear":
         return <Mintable />;
-      case "NiftyGateway":
+      case "Grumpy Cat":
         return <NiftyGateway />;
       default:
         return <Zora />;
@@ -38,12 +38,12 @@ const Communities = () => {
           <div className="flex overflow-x-auto w-full bg-gray-800 shadow-lg rounded text-white p-4">
             <div className="flex space-x-4">
               {[
-                "OpenSea",
-                "Rarible",
-                "Zora",
-                "SuperRare",
-                "Mintable",
-                "NiftyGateway",
+                "CryptoPunks",
+                "Bored Ape Yacht Club (BAYC)",
+                "Success Kid",
+                "Pepe the Frog",
+                "Vitalik the Bear",
+                "Grumpy Cat",
               ].map((tab) => (
                 <div
                   key={tab}
